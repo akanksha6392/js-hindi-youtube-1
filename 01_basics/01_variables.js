@@ -11,4 +11,7 @@ accountCity = "Noida"
 
 console.log(accountId)
 console.table([accountId, accountEmail, accountPassword, accountCity])
+/*
+prefer not to use var because of issue in block scpope and functional scope
+*/
 
